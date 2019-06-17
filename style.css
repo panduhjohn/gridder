@@ -1,39 +1,147 @@
 * {
     box-sizing: border-box;
-}   
+}  
+
 body {
-    height: 100vh;
+    /* height: 100vh; */
+    display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(8, 12%);
-}
-header {
-    background-color: yellow;
-    display: grid;
+    width: 600px;
 
 }
+
 .header {
-    background-color:red;
+    background-color: #55ACED;
     grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+    display: grid;
+}
+#signal {
+    height: 20px;
+    width: auto;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;    
+}
+#time {
+    height: 20px;
+    width: auto;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;    
+}
+#battery {
+    height: 20px;
+    width: auto;
+    grid-column: 4 / span 4;
     grid-row: 1 / span 1;
 }
+
 .profile {
-    background-color:blue;
-    grid-column: 2 / span 4;
-    grid-row: 1 / span 4;
+    background-color: #55ACED;
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 1;
+    display: grid;
 }
+#arrow {
+    height: 45px;
+    width: auto;
+}
+#profile {
+    height: 45px;
+    width: auto;
+}
+#mag {
+    height: 45px;
+    width: auto;
+}
+#feather {
+    height: 45px;
+    width: auto;
+}
+
+
 .main {
     background-color: orange;
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 1;
+    display: grid;
+}
+
+#mainsection {
+    height: 350px;
+    width: 600px;
 }
 
 .follow {
     background-color: green;
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+    display: grid;
 }
 .gear {
     background-color: black;
+    grid-column: 1 / span 4;
+    grid-row: 5 / span 1;
+    display: grid;
 }
+
+#gearicon {
+    height: 45px;
+    width: auto;
+}
+
+#follow {
+    height: 45px;
+    width: auto;
+}
+
 .post {
     background-color: white;
+    grid-column: 1 / span 4;
+    grid-row: 6 / span 1;
+    display: grid;
 }
+
+#profilepic {
+    height: 100px;
+    width: 100px;
+}
+
+#news {
+    height: 25px;
+    width: auto;
+}
+
 .footer {
-    background-color: purple;
+    background-color: black;
+    grid-column: 1 / span 4;
+    grid-row: 8 / span 4;
+    display: grid;
+    height: 70px;
+}
+
+#home {
+    height: 45px;
+    width: auto;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    
+}
+#connect {
+    height: 45px;
+    width: auto;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+#discover {
+    height: 45px;
+    width: auto;
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+#me {
+    height: 45px;
+    width: auto;
+    grid-column: 4 / 4;
+    grid-row: 1 / 1;
 }
