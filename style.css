@@ -11,7 +11,7 @@ body {
   grid-template-columns: repeat (5, 20%);
   grid-template-rows: repeat (5, 20%);
   width: 600px; /* first fucking thing to react in this bullshit code.*/
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .header {
@@ -28,8 +28,8 @@ body {
 #signal {
   /* display: grid; */
   height: 20px;
-  grid-column: 1;
-  grid-row: 1;
+  /* grid-column: 1; */
+  /* grid-row: 1; */
 }
 
 #signal img {
@@ -41,8 +41,8 @@ body {
   display: grid;
   height: 20px;
   width: 100px;
-  grid-column: 2;
-  grid-row: 1;
+  /* grid-column: 2; */
+  /* grid-row: 1; */
 }
 
 /* .time img {
@@ -53,16 +53,16 @@ body {
 #battery {
   height: 20px;
   width: 40px;
-  grid-column: 3;
-  grid-row: 1;
+  /* grid-column: 3; */
+  /* grid-row: 1; */
 }
 .battery img {
   /* height: 20px; */
   /* width: 10px; */
 }
 .profile {
-  /* background-color: #55ACED; */
-  background-color: fuchsia;
+  background-color: #55ACED;
+  /* background-color: fuchsia; */
   grid-column: 1 / span 4;
   grid-row: 2;
   display: grid;
@@ -81,22 +81,25 @@ body {
   width: auto;
   grid-column: 2 / span 2;
   grid-row: 2 / span 1;
+  padding-left: 190px;
 }
 #mag {
   height: 45px;
   width: auto;
   grid-column: 3 / span 3;
   grid-row: 2 / span 1;
+  padding-left: 280px
 }
 #feather {
   height: 45px;
   width: auto;
   grid-column: 4 / span 4;
   grid-row: 2 / span 5;
+  padding-left: 190px;
 }
 
 .main {
-  background-color: orange;
+  /* background-color: orange; */
   grid-column: 1 / span 4;
   grid-row: 3;
   display: grid;
@@ -107,30 +110,40 @@ body {
   width: 600px;
 }
 
+
+
 .follow {
-  background-color: green;
+  /* background-color: green; */
   display: grid;
   grid-row: 4;
   grid-column: 1;
-
+  font-family: inherit;
+}
+.follow span {
+    font-weight: bold;
 }
 
 #tweet {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
+  padding-left: 30px;
+  /* border: 1px solid black; */
 }
 #following {
   grid-column: 2 / span 2;
   grid-row: 1 / span 1;
+  padding-left: 80px;
 }
 #followers {
   grid-column: 3 / span 3;
   grid-row: 1 / span 1;
+  padding-left: 200px
 }
 .gear {
-  background-color: black;
+  /* background-color: black; */
   display: grid;
   grid-row: 5;
+  height: 70px
 }
 
 #gearicon {
@@ -138,19 +151,26 @@ body {
   width: auto;
   grid-column: 1 / span 1;
   grid-row: 5 / span 1;
+  padding-left: 20px
 }
 
 #follow {
-  height: 45px;
+  height: 50px;
   width: auto;
   grid-column: 3 / span 1;
   grid-row: 5 / span 1;
+  padding-left: 300px;
+
 }
 
 .post {
   background-color: white;
   display: grid;
   grid-row: 6;
+}
+
+.post span {
+    font-weight: bold;
 }
 
 #profilepic {
@@ -184,22 +204,30 @@ body {
   width: auto;
   grid-column: 1 / 4;
   grid-row: 7 / 1;
+  padding-left: 30px;
+}
+.footer p {
+    padding-left: 30px;
+    color: gray;
 }
 #connect {
   height: 45px;
   width: auto;
   grid-column: 2 / 4;
   grid-row: 7 / 1;
+    padding-left: 30px;
 }
 #discover {
   height: 45px;
   width: auto;
   grid-column: 3 / 4;
   grid-row: 7 / 1;
+    padding-left: 30px;
 }
 #me {
   height: 45px;
   width: auto;
   grid-column: 4 / 4;
   grid-row: 7 / 1;
+  
 }
