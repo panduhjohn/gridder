@@ -207,12 +207,14 @@ body {
 
 .post div > p > span:nth-child(2) {
     /* font-weight: bold; */
-    color: gray;    
+    color: gray; 
+    font-size: 16px;   
 }
 
 .post div > p > span:nth-child(4) {
     /* font-weight: bold; */
     color: gray;    
+        font-size: 16px; 
 }
 
 .post1 {
@@ -223,6 +225,7 @@ body {
     font-size: 21.5px;
     margin-top: -25px;
 }
+
 
 #profilepic {
   height: 100px;
